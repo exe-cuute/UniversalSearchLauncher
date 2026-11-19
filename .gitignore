@@ -1,0 +1,19 @@
+# Local toolchain and packages
+.tools/
+.testdata/
+artifacts/
+
+# Build output
+**/bin/
+**/obj/
+dist/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+
+# Logs and temporary files
+*.log
+*.tmp
+**/NuGet/Migrations/

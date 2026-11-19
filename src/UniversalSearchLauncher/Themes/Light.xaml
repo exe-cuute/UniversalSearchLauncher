@@ -1,0 +1,62 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <LinearGradientBrush x:Key="WindowGlassBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#E9FBFDFF" Offset="0" />
+        <GradientStop Color="#EAF4F6FC" Offset="0.5" />
+        <GradientStop Color="#EDECF0F8" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="WindowGlowBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#305B5CF0" Offset="0" />
+        <GradientStop Color="#0015C7E8" Offset="0.58" />
+        <GradientStop Color="#0015C7E8" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="AccentGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#645CF5" Offset="0" />
+        <GradientStop Color="#08A6D8" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="WindowBorderBrush" Color="#26000000" />
+    <SolidColorBrush x:Key="ShadowPlateBrush" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="#171A22" />
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="#555D6E" />
+    <SolidColorBrush x:Key="TextMutedBrush" Color="#818899" />
+    <SolidColorBrush x:Key="PlaceholderBrush" Color="#8B92A2" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#5B5CF0" />
+    <SolidColorBrush x:Key="Accent2Brush" Color="#0B9FD8" />
+    <SolidColorBrush x:Key="AccentSoftBrush" Color="#175B5CF0" />
+    <SolidColorBrush x:Key="AccentTextBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="SelectionBrush" Color="#E9EBFF" />
+    <SolidColorBrush x:Key="SelectionBorderBrush" Color="#9AA2FF" />
+    <SolidColorBrush x:Key="RowHoverBrush" Color="#0C000000" />
+    <SolidColorBrush x:Key="DividerBrush" Color="#14000000" />
+    <SolidColorBrush x:Key="InputBackgroundBrush" Color="#F3F5FA" />
+    <SolidColorBrush x:Key="SearchBarBackgroundBrush" Color="#F7F8FC" />
+    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="#FDFDFE" />
+    <SolidColorBrush x:Key="ChipBrush" Color="#0D000000" />
+    <SolidColorBrush x:Key="ChipSelectedBrush" Color="#E3E5FF" />
+    <SolidColorBrush x:Key="ChipSelectedTextBrush" Color="#3C3FCE" />
+    <SolidColorBrush x:Key="CardBrush" Color="#B8FFFFFF" />
+    <SolidColorBrush x:Key="CardBorderBrush" Color="#12000000" />
+    <SolidColorBrush x:Key="IconTileBrush" Color="#0B000000" />
+    <SolidColorBrush x:Key="IconGlyphBrush" Color="#545CCF" />
+    <SolidColorBrush x:Key="ScrollThumbBrush" Color="#C1C6D4" />
+    <SolidColorBrush x:Key="ScrollThumbHoverBrush" Color="#9DA4B6" />
+    <SolidColorBrush x:Key="TrackBrush" Color="#16000000" />
+    <SolidColorBrush x:Key="ToggleOffBrush" Color="#D1D6E2" />
+    <SolidColorBrush x:Key="ToggleThumbBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="DangerBrush" Color="#D92D45" />
+    <SolidColorBrush x:Key="WarningBrush" Color="#B26A00" />
+    <SolidColorBrush x:Key="SuccessBrush" Color="#07835A" />
+    <SolidColorBrush x:Key="PinBrush" Color="#C58600" />
+    <SolidColorBrush x:Key="SelectionSubtextBrush" Color="#4F5668" />
+    <SolidColorBrush x:Key="FooterBrush" Color="#07000000" />
+    <SolidColorBrush x:Key="ButtonBorderBrush" Color="#1F000000" />
+    <SolidColorBrush x:Key="SecondaryHoverBrush" Color="#0D000000" />
+    <SolidColorBrush x:Key="PrimaryTextBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="PrimaryButtonBrush" Color="#5B5CF0" />
+    <SolidColorBrush x:Key="SkeletonBrush" Color="#0F000000" />
+
+</ResourceDictionary>
